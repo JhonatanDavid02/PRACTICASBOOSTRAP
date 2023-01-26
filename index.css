@@ -1,4 +1,74 @@
-body{
-  
+
+.primerseccion{
+    height: 500px;
+    background-image: url("https://static.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction:row-reverse;
+    padding: 5px;
+    width:100%;
+    float: left;
+    flex-wrap: wrap;
+    background-color: rgb(251, 251, 251);
+}
+
+.corazon{
+    color: black;
+}
+
+.listanav{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 1000px;
+
+    list-style-type: none;
+    margin-right: 0;
+}
+.listanav>li{
+    background-color: red;
+    padding: 20px;
+    
+}
+
+._navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50px;
 
 }
+
+.NPM{
+    font-family:'Source Sans Pro', 'Lucida Grande', sans-serif;
+    margin: 10px;
+    font-size:20px ;
+    color: black;
+
+}
+
+.col-1{
+    background-color: green;
+    width: 100%;
+    height: 780px;
+}
+.col-2{
+    background-color:rgb(34, 29, 150);
+    width: 100%;
+    height: 350px;
+}
+
+.col-3{
+    background-color: rgb(226, 226, 21);
+    width: 100%;
+}
+
+.col-4{
+    background-color: rgb(82, 23, 7);
+    width: 100%;
+}
+
